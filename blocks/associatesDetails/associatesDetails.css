@@ -1,0 +1,27 @@
+.associatesdetails > div {
+    display: flex;
+    padding: 15px 0;
+    align-items: center;
+    background-color: #fff;
+    box-shadow: 0 4px 12px rgba(0,61,166,0.12);
+}
+.associatesdetails > div > div:nth-child(2) {
+    padding-left: 60px;
+}
+.associatesdetails h3 {
+    font-size: 22px;
+    font-weight: bold;
+    padding-right: 15px;
+}
+.associatesdetails p {
+    color: #5b6670;
+    font-family: 'Lato';
+    font-size: 14px;
+    margin: 10px 0 20px;
+}
+.associatesdetails li {
+    font-family: 'Lato';
+    font-size: 14px;
+    color: #5b6670;
+    line-height: 22px;
+}

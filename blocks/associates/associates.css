@@ -1,0 +1,75 @@
+.associates > div {
+    display: flex;
+    padding: 15px 0;
+    align-items: center;
+    background-color: #fff;
+    box-shadow: 0 4px 12px rgba(0,61,166,0.12);
+}
+.associates > div > div:first-child {
+    width: 273px;
+    height: 300px;
+    color: #006bb6;
+    font-size: 14px;
+}
+
+
+.associates > div > div:first-child h2{
+    margin: 0;
+}
+
+/* .associates > div > div:nth-child(2) h3 {
+    font-size: 22px;
+    font-weight: bold;
+    padding-left: 30px;
+    margin-bottom: 0;
+    line-height: inherit;
+    color: #231f20;
+    font-family: 'Lato';
+} */
+.associates h3 {
+    color: #5b6670;
+    font-family: 'Lato';
+    font-size: 14px;
+    margin: 0;
+    padding-left: 30px;
+}
+
+.associates h3:first-child {
+    font-size: 22px;
+    font-weight: bold;
+    padding-left: 30px;
+    margin-bottom: 0;
+    line-height: inherit;
+    color: #231f20;
+    font-family: 'Lato';
+}
+.associates > div > div:nth-child(2) p {
+    color: #5b6670;
+    font-family: 'Lato';
+    font-size: 14px;
+    margin: 0;
+    padding-left: 30px;
+}
+
+h1#connect-with-an-associate-near-you {
+    text-align: center;
+    font-size: 28px;
+    font-family: 'LatoBold';
+    color: #5b6670;
+}
+.associates {
+    margin: 50px auto 0;
+    width: 760px;
+    padding-bottom: 100px;
+    padding-left: 0;
+}
+.button-container a.button:any-link {
+    text-align: center;
+    font-style: normal;
+    font-weight: 600;
+    cursor: pointer;
+    background-color: transparent;
+    color: #006bb6;
+    font-size: 14px;
+    padding: 0;
+}
